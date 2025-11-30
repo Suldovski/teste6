@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
+<<<<<<< HEAD
     "module": "ES2020",
     "lib": ["ES2020", "DOM"],
     "outDir": "./dist",
@@ -13,4 +14,23 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
+=======
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+>>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
 }

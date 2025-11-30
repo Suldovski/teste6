@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Luan Suldovski - Front-end
 
 Front-end TypeScript puro para o sistema de empréstimos de livros da biblioteca.
@@ -54,3 +55,6 @@ Interface minimalista estilo HTML 1995:
 - `GET /api/biblioteca/listar` - Listar todos
 - `PATCH /api/biblioteca/devolver/{id}` - Devolver livro
 - `GET /api/biblioteca/atrasados` - Listar atrasados
+=======
+Prova
+>>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae

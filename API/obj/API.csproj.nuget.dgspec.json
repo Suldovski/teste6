@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\EQUALIZE\\Documents\\testeprova3\\API\\API.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\EQUALIZE\\Documents\\testeprova3\\API\\API.csproj",
         "packagesPath": "C:\\Users\\EQUALIZE\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\EQUALIZE\\Documents\\testeprova3\\API\\obj\\",
+=======
+    "C:\\Users\\EQUALIZE\\Documents\\testeprova2\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EQUALIZE\\Documents\\testeprova2\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EQUALIZE\\Documents\\testeprova2\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\EQUALIZE\\Documents\\testeprova2\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\EQUALIZE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EQUALIZE\\Documents\\testeprova2\\API\\obj\\",
+>>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EQUALIZE\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,15 +57,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
+=======
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+>>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.11, )"
+=======
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+>>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
             }
           },
           "imports": [
