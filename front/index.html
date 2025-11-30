@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Luan Suldovski</title>
+</head>
+<body>
+    <h1>Sistema Luan Suldovski</h1>
+    
+    <hr>
+    
+    <h2>Novo Empréstimo</h2>
+    <form id="formNovoEmprestimo">
+        <label>Nome do Livro:</label><br>
+        <input type="text" id="livro" required><br><br>
+        
+        <label>Nome do Aluno:</label><br>
+        <input type="text" id="aluno" required><br><br>
+        
+        <button type="submit">Retirar Livro</button>
+    </form>
+    
+    <hr>
+    
+    <h2>Histórico de Empréstimos</h2>
+    <button id="btnListar">Atualizar Lista</button><br><br>
+    <table border="1" id="tabelaHistorico">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Livro</th>
+                <th>Aluno</th>
+                <th>Data Retirada</th>
+                <th>Data Prevista</th>
+                <th>Data Devolução</th>
+                <th>Multa</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <hr>
+    
+    <h2>Devolução de Livro</h2>
+    <form id="formDevolucao">
+        <label>ID do Empréstimo:</label><br>
+        <input type="number" id="idDevolucao" required><br><br>
+        
+        <label>Data da Devolução:</label><br>
+        <input type="date" id="dataDevolucao" required><br><br>
+        
+        <button type="submit">Confirmar Devolução</button>
+    </form>
+    <div id="resultadoDevolucao"></div>
+    
+    <hr>
+    
+    <h2>Empréstimos Atrasados</h2>
+    <button id="btnAtrasados">Atualizar Atrasados</button><br><br>
+    <table border="1" id="tabelaAtrasados">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Livro</th>
+                <th>Aluno</th>
+                <th>Data Retirada</th>
+                <th>Data Prevista</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <script type="module" src="./dist/app.js"></script>
+</body>
+</html>
