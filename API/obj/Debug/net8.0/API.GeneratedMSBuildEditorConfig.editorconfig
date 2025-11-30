@@ -9,19 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API
 build_property.RootNamespace = API
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\EQUALIZE\Documents\testeprova3\API\
-=======
-build_property.ProjectDir = C:\Users\EQUALIZE\Documents\testeprova2\API\
->>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\EQUALIZE\Documents\testeprova3\API
-=======
-build_property.MSBuildProjectDirectory = C:\Users\EQUALIZE\Documents\testeprova2\API
->>>>>>> ad7e5878ebd4ca8876fed3ae99d3e4a8da9e8aae
 build_property._RazorSourceGeneratorDebug = 
